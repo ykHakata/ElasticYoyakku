@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>yoyakku / 予約確認</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="import.css">
 </head>
 <body class="" id="">
 
-<div class="" id="warpper">
+<div class="" id="wrapper">
 
     <header class="" id="header">
 
@@ -16,10 +16,11 @@
 
         <nav class=""id="headerNaviSection">
             <ul class=""id="headerNavi">
-                <li class=""id=""><input type="button" value="前の月"></li>
-                <li class=""id=""><p>2014年11月</p></li>
-                <li class=""id=""><input type="button" value="次の月"></li>
+                <li class="headerNaviSectionList" id="backMonth"><input type="button" value="前の月"></li>
+                <li class="headerNaviSectionList" id="thisMonth"><p>2014年11月</p></li>
+                <li class="headerNaviSectionList" id="nextMonth"><input type="button" value="次の月"></li>
             <!-- /#headerNavi --></ul>
+            <div class="clearFix" id=""></div>
         <!-- /#headerNaviSection --></nav>
 
     <!-- /#header --></header>
@@ -27,73 +28,73 @@
     <div class="" id="contents">
 
         <div class="" id="calendar">
-            <table class="" id="calendarTable">
-                <caption class="" id="">カレンダー</caption>
-                <thead class="" id="">
-                    <tr class="" id="">
-                        <th class="" id="">月</th>
-                        <th class="" id="">火</th>
-                        <th class="" id="">水</th>
-                        <th class="" id="">木</th>
-                        <th class="" id="">金</th>
-                        <th class="" id="">土</th>
-                        <th class="" id="">日</th>
+            <table class="" id="calendarTable" cellspacing="0">
+                <caption class="" id="calendarCaption">カレンダー</caption>
+                <thead class="" id="calendarThead">
+                    <tr class="" id="calendarWeeks">
+                        <th class="calendarTheadTh" id="">月</th>
+                        <th class="calendarTheadTh" id="">火</th>
+                        <th class="calendarTheadTh" id="">水</th>
+                        <th class="calendarTheadTh" id="">木</th>
+                        <th class="calendarTheadTh" id="">金</th>
+                        <th class="calendarTheadTh" id="">土</th>
+                        <th class="calendarTheadTh" id="">日</th>
                     </tr>
                 </thead>
-                <tbody id="" class="">
-                    <tr class="" id="">
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id="">1</td>
+                <tbody class="" id="calendarTbody">
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id="">1<br>◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">2</td>
-                        <td class="" id="">3</td>
-                        <td class="" id="">4</td>
-                        <td class="" id="">5</td>
-                        <td class="" id="">6</td>
-                        <td class="" id="">7</td>
-                        <td class="" id="">8</td>
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id="">2<br>◯</td>
+                        <td class="calendarTbodyTd" id="">3<br>◯</td>
+                        <td class="calendarTbodyTd" id="">4<br>◯</td>
+                        <td class="calendarTbodyTd" id="">5<br>◯</td>
+                        <td class="calendarTbodyTd" id="">6<br>◯</td>
+                        <td class="calendarTbodyTd" id="">7<br>◯</td>
+                        <td class="calendarTbodyTd" id="">8<br>◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">9</td>
-                        <td class="" id="">10</td>
-                        <td class="" id="">11</td>
-                        <td class="" id="">12</td>
-                        <td class="" id="">13</td>
-                        <td class="" id="">14</td>
-                        <td class="" id="">15</td>
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id="">9<br>◯</td>
+                        <td class="calendarTbodyTd" id="">10<br>◯</td>
+                        <td class="calendarTbodyTd" id="">11<br>◯</td>
+                        <td class="calendarTbodyTd" id="">12<br>◯</td>
+                        <td class="calendarTbodyTd" id="">13<br>◯</td>
+                        <td class="calendarTbodyTd" id="">14<br>◯</td>
+                        <td class="calendarTbodyTd" id="">15<br>◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">16</td>
-                        <td class="" id="">17</td>
-                        <td class="" id="">18</td>
-                        <td class="" id="">19</td>
-                        <td class="" id="">20</td>
-                        <td class="" id="">21</td>
-                        <td class="" id="">22</td>
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id="">16<br>◯</td>
+                        <td class="calendarTbodyTd" id="">17<br>◯</td>
+                        <td class="calendarTbodyTd" id="">18<br>◯</td>
+                        <td class="calendarTbodyTd" id="">19<br>◯</td>
+                        <td class="calendarTbodyTd" id="">20<br>◯</td>
+                        <td class="calendarTbodyTd" id="">21<br>◯</td>
+                        <td class="calendarTbodyTd" id="">22<br>◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">23</td>
-                        <td class="" id="">24</td>
-                        <td class="" id="">25</td>
-                        <td class="" id="">26</td>
-                        <td class="" id="">27</td>
-                        <td class="" id="">28</td>
-                        <td class="" id="">29</td>
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id="">23<br>◯</td>
+                        <td class="calendarTbodyTd" id="">24<br>◯</td>
+                        <td class="calendarTbodyTd" id="">25<br>◯</td>
+                        <td class="calendarTbodyTd" id="">26<br>◯</td>
+                        <td class="calendarTbodyTd" id="">27<br>◯</td>
+                        <td class="calendarTbodyTd" id="">28<br>◯</td>
+                        <td class="calendarTbodyTd" id="">29<br>◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">30</td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
-                        <td class="" id=""></td>
+                    <tr class="calendarDays" id="">
+                        <td class="calendarTbodyTd" id="">30<br>◯</td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
+                        <td class="calendarTbodyTd" id=""></td>
                     </tr>
                 </tbody>
             </table>
@@ -101,234 +102,234 @@
 
         <div class="" id="bookingConf">
             <table class="" id="bookingConfTable">
-                <caption class="" id="">予約確認表</caption>
-                <thead class="" id="">
-                    <tr class="" id="">
-                        <th class="" id="">11/30</th>
-                        <th class="" id="">A<br>(30分スタート)</th>
-                        <th class="" id="">B<br>(30分スタート)</th>
-                        <th class="" id="">C</th>
-                        <th class="" id="">D</th>
-                        <th class="" id="">E</th>
-                        <th class="" id="">F</th>
+                <caption class="" id="bookingConfCaption">予約確認表</caption>
+                <thead class="" id="bookingConfThead">
+                    <tr class="" id="bookingConfWeeks">
+                        <th class="bookingConfTheadTh" id="">11/30</th>
+                        <th class="bookingConfTheadTh" id="">A<br>(30分スタート)</th>
+                        <th class="bookingConfTheadTh" id="">B<br>(30分スタート)</th>
+                        <th class="bookingConfTheadTh" id="">C</th>
+                        <th class="bookingConfTheadTh" id="">D</th>
+                        <th class="bookingConfTheadTh" id="">E</th>
+                        <th class="bookingConfTheadThRight" id="">F</th>
                     </tr>
                 </thead>
-                <tbody class="" id="">
-                    <tr class="" id="">
-                        <td class="" id="">6:00</td>
-                        <td class="" id="">×<br>6:30~</td>
-                        <td class="" id="">◯<br>6:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                <tbody class="" id="bookingConfTbody">
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">6:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>6:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>6:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">7:00</td>
-                        <td class="" id="">×<br>7:30~</td>
-                        <td class="" id="">×<br>7:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">7:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>7:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>7:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTdRight" id="">×</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">8:00</td>
-                        <td class="" id="">◯<br>8:30~</td>
-                        <td class="" id="">×<br>8:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">8:00</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>8:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>8:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTdRight" id="">×</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">9:00</td>
-                        <td class="" id="">◯<br>9:30~</td>
-                        <td class="" id="">◯<br>9:30~</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">×</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">9:00</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>9:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>9:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">×</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">10:00</td>
-                        <td class="" id="">×<br>10:30~</td>
-                        <td class="" id="">◯<br>10:30~</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">10:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>10:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>10:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">11:00</td>
-                        <td class="" id="">◯<br>11:30~</td>
-                        <td class="" id="">◯<br>11:30~</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">11:00</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>11:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>11:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTdRight" id="">×</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">12:00</td>
-                        <td class="" id="">◯<br>12:30~</td>
-                        <td class="" id="">◯<br>12:30~</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">×</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">12:00</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>12:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>12:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">×</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">13:00</td>
-                        <td class="" id="">×<br>13:30~</td>
-                        <td class="" id="">◯<br>13:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">13:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>13:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>13:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">14:00</td>
-                        <td class="" id="">×<br>14:30~</td>
-                        <td class="" id="">◯<br>14:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">14:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>14:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>14:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">15:00</td>
-                        <td class="" id="">×<br>15:30~</td>
-                        <td class="" id="">◯<br>15:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">15:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>15:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>15:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">16:00</td>
-                        <td class="" id="">×<br>16:30~</td>
-                        <td class="" id="">◯<br>16:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">16:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>16:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>16:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">17:00</td>
-                        <td class="" id="">×<br>17:30~</td>
-                        <td class="" id="">◯<br>17:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">17:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>17:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>17:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">18:00</td>
-                        <td class="" id="">×<br>18:30~</td>
-                        <td class="" id="">◯<br>18:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">18:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>18:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>18:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">19:00</td>
-                        <td class="" id="">×<br>19:30~</td>
-                        <td class="" id="">◯<br>19:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">19:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>19:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>19:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">20:00</td>
-                        <td class="" id="">×<br>20:30~</td>
-                        <td class="" id="">◯<br>20:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">20:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>20:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>20:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">21:00</td>
-                        <td class="" id="">×<br>21:30~</td>
-                        <td class="" id="">◯<br>21:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">21:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>21:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>21:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">22:00</td>
-                        <td class="" id="">×<br>22:30~</td>
-                        <td class="" id="">◯<br>22:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">22:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>22:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>22:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">23:00</td>
-                        <td class="" id="">×<br>23:30~</td>
-                        <td class="" id="">◯<br>23:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">23:00</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>23:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>23:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">24:00<br>(0:00)</td>
-                        <td class="" id="">×<br>24:30~</td>
-                        <td class="" id="">◯<br>24:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">24:00<br>(0:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>24:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>24:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">25:00<br>(1:00)</td>
-                        <td class="" id="">×<br>25:30~</td>
-                        <td class="" id="">◯<br>25:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">25:00<br>(1:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>25:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>25:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">26:00<br>(2:00)</td>
-                        <td class="" id="">×<br>26:30~</td>
-                        <td class="" id="">◯<br>26:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">26:00<br>(2:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>26:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>26:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">27:00<br>(3:00)</td>
-                        <td class="" id="">×<br>27:30~</td>
-                        <td class="" id="">◯<br>27:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">27:00<br>(3:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>27:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>27:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">28:00<br>(4:00)</td>
-                        <td class="" id="">×<br>28:30~</td>
-                        <td class="" id="">◯<br>28:30~</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">28:00<br>(4:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>28:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯<br>28:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
-                    <tr class="" id="">
-                        <td class="" id="">29:00<br>(5:00)</td>
-                        <td class="" id="">×<br>29:30~</td>
-                        <td class="" id="">×<br>29:30~</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">×</td>
-                        <td class="" id="">◯</td>
-                        <td class="" id="">◯</td>
+                    <tr class="bookingConfDays" id="">
+                        <td class="bookingConfTbodyTd" id="">29:00<br>(5:00)</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>29:30~</td>
+                        <td class="bookingConfTbodyTd" id="">×<br>29:30~</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTd" id="">×</td>
+                        <td class="bookingConfTbodyTd" id="">◯</td>
+                        <td class="bookingConfTbodyTdRight" id="">◯</td>
                     </tr>
                 </tbody>
             <!-- /#bookingConfTable --></table>
@@ -337,10 +338,10 @@
     <!-- /#contents --></div>
 
     <footer class="" id="footer">
-        <p class="" id="footerTitle">Copyright(c)yoyakku Inc. All Rights Reserver</p>
+        <p class="" id="copyright">Copyright(c)yoyakku Inc. All Rights Reserver</p>
     <!-- /#footer --></footer>
 
-<!-- /#warpper --></div>
+<!-- /#wrapper --></div>
 
 </body>
 </html>
